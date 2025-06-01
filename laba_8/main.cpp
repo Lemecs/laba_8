@@ -6,8 +6,10 @@
 int main()
 {
 	srand(time(0));
-	fill_circle_array(10, 5, 5, 11);
+	fill_circle_array(2, 1, 1, 11);
 	print_circle_array();
-	find_concentric();
+	checkNested();
+	checkThreePairwiseIntersecting();
+	checkIsolated();
 	return 0;
 }
