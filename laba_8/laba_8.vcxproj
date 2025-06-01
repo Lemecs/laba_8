@@ -128,11 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Circle.c" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="circle_arrray.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="point.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
+    <ClInclude Include="circle_array.h" />
+    <ClInclude Include="сircle.h" />
+    <ClInclude Include="point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
